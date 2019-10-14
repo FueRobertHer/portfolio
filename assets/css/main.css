@@ -3646,6 +3646,11 @@ input, select, textarea {
 			box-shadow: inset 0 -1px 0 0 #FFFAFF, 0 1px 0 0 #FFFAFF;
 		}
 
+		.wrapper:after {
+			bottom: -2.5em;
+			left: 0;
+		}
+
 		.wrapper:before, .wrapper:after {
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
@@ -4011,6 +4016,10 @@ input, select, textarea {
 
 /* Footer */
 
+	#footer {
+		background-color: #FC5130;
+	}
+
 	#footer .inner {
 		padding: 5em 0 3em 0 ;
 		display: -moz-flex;
@@ -4166,4 +4175,10 @@ input, select, textarea {
 		padding: 15px 25px;
 		/* border-radius: 100%;
 		border: solid 2px rgba(255, 255, 255, 0.125); */
+	}
+
+	.project-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
 	}
