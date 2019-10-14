@@ -9,12 +9,11 @@
 	ul.contact {
 		list-style: none;
 		padding: 0;
-		width: 100%;
 
 		li {
 			@include icon;
 			margin: (_size(element-margin) * 1.25) 0 0 0;
-			padding: 0 0 0 3.25em;
+			// padding: 0 0 0 3.25em;
 			position: relative;
 
 			&:before {
@@ -41,4 +40,8 @@
 				margin: (_size(element-margin) * 0.75) 0 0 0;
 			}
 		}
+	}
+
+	.first-icon {
+		margin: 40px 0 0;
 	}

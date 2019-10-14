@@ -8,7 +8,9 @@
 
 	.icon {
 		@include icon;
-		border-bottom: none;
+		// border-bottom: none;
+		border-radius: 100%;
+		border: solid 2px rgba(255, 255, 255, 0.125);
 		position: relative;
 
 		> .label {
