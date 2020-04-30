@@ -1,0 +1,13 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 20em;
+  border: 1px solid;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
