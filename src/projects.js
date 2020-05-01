@@ -33,7 +33,7 @@ const projectList = [{
   },
   {
     title: "TabbyNotes",
-    image: tabbyNotes,
+    image: WIP,
     description: "TabbyNotes is ...",
     technologies: "Javascript, React",
     livelink: "https://chrome.google.com/webstore/detail/tabbynotes/nhonielfcdgaojbfoacndbocgdodbpme",
