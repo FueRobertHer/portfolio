@@ -18,9 +18,14 @@
 }
 
 .about-nav-list > li {
+  cursor: pointer;
   list-style: none;
   margin: 1em;
   font-size: .7em;
+}
+
+.about-nav-list>li:hover {
+  color: #33233D;
 }
 
 .about-body {
