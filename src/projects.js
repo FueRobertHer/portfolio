@@ -3,7 +3,7 @@ import './styles/projects.css'
 import npsectImg from './assets/nspect.png'
 import jumpyKartImg from './assets/jumpykart.png'
 import salmonRunImg from './assets/salmonrun.png'
-import tabbyNotes from './TabbyNotes/static'
+// import tabbyNotes from './TabbyNotes/static'
 import WIP from './assets/work-in-progress.gif'
 
 
