@@ -1,0 +1,44 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  min-width: fit-content;
+  width: 13vw;
+  background-color: black;
+  filter: drop-shadow(0 0 1em black);
+}
+
+.sidebar-list {
+  margin-top: 3em;
+}
+
+.sidebar-list-item {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.sidebar-list-item:hover {
+  cursor: pointer;
+  color: firebrick;
+  filter: drop-shadow(0 0 1em firebrick);
+}
+
+.links {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+
+.link {
+  margin: .5em;
+  height: 1em;
+  width: 1em;
+  fill: white;
+}
+
+.link:hover {
+  fill: steelblue;
+}

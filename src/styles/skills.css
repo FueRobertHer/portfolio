@@ -1,0 +1,12 @@
+.skills {
+  /* display: flex; */
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 5em;
+}
+
+svg {
+  height: 80px;
+  width: 80px;
+  margin: 15px;
+}

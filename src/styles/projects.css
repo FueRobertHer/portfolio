@@ -1,0 +1,17 @@
+.projects {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  overflow: scroll;
+}
+
+.project-item {
+  width: 80%;
+  padding: 1em;
+  margin: auto;
+}
+
+.table > tr {
+  vertical-align: top;
+}
