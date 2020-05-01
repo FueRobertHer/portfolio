@@ -15,14 +15,18 @@
 }
 
 .sidebar-list-item {
-  display: inline-block;
+  display: block;
   margin: 1rem;
 }
 
 .sidebar-list-item:hover {
   cursor: pointer;
   color: firebrick;
-  filter: drop-shadow(0 0 1em firebrick);
+}
+
+.active {
+  cursor: initial;
+  color: firebrick;
 }
 
 .links {

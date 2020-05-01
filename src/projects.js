@@ -3,7 +3,7 @@ import './styles/projects.css'
 import npsectImg from './assets/nspect.png'
 import jumpyKartImg from './assets/jumpykart.png'
 import salmonRunImg from './assets/salmonrun.png'
-// import tabbyNotesImg from './assets/tabbynotes.png'
+import tabbyNotes from './TabbyNotes/static'
 import WIP from './assets/work-in-progress.gif'
 
 
@@ -16,7 +16,7 @@ const projectList = [{
     github: "https://github.com/FueRobertHer/Nspect"
   },
   {
-    title: "JumpyKart",
+    title: "Jumpy Kart",
     image: jumpyKartImg,
     description: "JumpyKart is ...",
     technologies: "JavaScript, MongoDB, Express, React, Redux, NodeJS, Websockets, Canvas",
@@ -33,7 +33,7 @@ const projectList = [{
   },
   {
     title: "TabbyNotes",
-    image: WIP,
+    image: tabbyNotes,
     description: "TabbyNotes is ...",
     technologies: "Javascript, React",
     livelink: "https://chrome.google.com/webstore/detail/tabbynotes/nhonielfcdgaojbfoacndbocgdodbpme",
@@ -44,6 +44,7 @@ const projectList = [{
     image: WIP,
     description: "",
     technologies: "Javascript",
+    livelink: "https://chrome.google.com/webstore/detail/ez-keycode/bfgoacblngcjklcmdlniiocjnokngmaa",
     github: "https://github.com/FueRobertHer/EZKeyCode"
   },
   {

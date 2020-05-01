@@ -1,0 +1,26 @@
+.contact {
+  margin: auto;
+}
+
+thead {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  border-bottom: double white;
+}
+
+.table-head, .table-cell {
+  height: 2.5em;
+  width: 10em;
+  margin: auto;
+}
+
+.contact-link {
+  margin: .5em;
+  height: 2em;
+  width: 2em;
+  fill: white;
+}

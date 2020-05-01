@@ -1,23 +1,53 @@
 import React from 'react';
+import {useState} from 'react'
 import './styles/sidebar.css'
 
 function Sidebar(props) {
+  let location = props.location.pathname.slice(1);
+  if (location === '') location = "home";
+  
+  const [activePage, setActivePage] = useState(location)
+
+  const sidebarNavs = [
+    {
+      id: 'home',
+      goTo,
+      activePage
+    },
+    {
+      id: 'projects',
+      goTo,
+      activePage
+    },
+    {
+      id: 'skills',
+      goTo,
+      activePage
+    },
+    {
+      id: 'about',
+      goTo,
+      activePage
+    },
+    {
+      id: 'contact',
+      goTo,
+      activePage
+    },
+  ]
 
   function goTo(e) {
-    let page = e.target.innerText.toLowerCase()
-    if (page === 'home') page = ''
-    props.history.push('/' + page)
+    let page = e.target.id;
+    setActivePage(page)
+    if (page === "home") page = '';
+    props.history.push("/" + page);
   }
 
 
   return (
     <nav className="sidebar">
       <div className="sidebar-list">
-        <b className="sidebar-list-item" onClick={goTo}>HOME</b> <br/>
-        <b className="sidebar-list-item" onClick={goTo}>PROJECTS</b> <br/>
-        <b className="sidebar-list-item" onClick={goTo}>SKILLS</b> <br/>
-        <b className="sidebar-list-item" onClick={goTo}>ABOUT</b> <br/>
-        <b className="sidebar-list-item" onClick={goTo}>CONTACT</b> <br/>
+        {sidebarNavs.map((nav, i) => <SidebarPageNav key={i} nav={nav}/>)}
       </div>
 
       <div className="links">
@@ -43,5 +73,14 @@ function Sidebar(props) {
     </nav>
   )
 };
+
+function SidebarPageNav(props) {
+  let activeClass = "sidebar-list-item"
+  if (props.nav.activePage === props.nav.id) activeClass += " active"
+
+  return (
+    <b id={props.nav.id} className={activeClass} onClick={props.nav.goTo}>{props.nav.id.toUpperCase()}</b>
+  )
+}
 
 export default Sidebar;
