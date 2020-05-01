@@ -1,6 +1,5 @@
 import React from 'react';
 import {HashRouter, Route} from "react-router-dom";
-import logo from './assets/logo.svg';
 import './styles/App.css';
 
 import Sidebar from './sidebar'

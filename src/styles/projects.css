@@ -12,6 +12,10 @@
   margin: auto;
 }
 
+.proj-img {
+  width: 100%;
+}
+
 .table > tr {
   vertical-align: top;
 }
