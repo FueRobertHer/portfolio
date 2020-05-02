@@ -1,6 +1,7 @@
 .about {
   width: 100%;
   overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 .about-nav {
