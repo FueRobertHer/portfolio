@@ -6,7 +6,7 @@
 
 .about-nav {
   position: fixed;
-  width: 87vw;
+  width: 75vw;
   background-color: rgb(37, 70, 97);
   filter: drop-shadow(0 0 1em black);
   z-index: 1;

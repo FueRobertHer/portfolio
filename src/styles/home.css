@@ -1,6 +1,62 @@
 .home {
-  width: 80%;
   margin-top: 3em;
+  overflow: hidden;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.tagline {
+  width: 80%;
+  margin: auto;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.strong {
+  color: #0069E2;
+}
+
+.sky {
+  position: relative;
+}
+
+.sun {
+  display: block;
+  position: absolute;
+  /* margin-right: 0; */
+  /* right: 0; */
+  /* top: vh; */
+  height: 80vw;
+  width: 80vw;
+  fill: whitesmoke;
+}
+
+.cloud {
+  position: absolute;
+  width: 35vw;
+  height: 25vh;
+  opacity: 50%;
+  fill: whitesmoke;
+  /* animation: shake 60s  infinite; */
+}
+
+.cloud-1 {
+  margin-left: 8em;
+  animation: shake 60s 1s infinite;
+  fill: red;
+}
+.cloud-2 {
+  right: 0;
+  margin-top: 6em;
+  animation: shake 60s 2s infinite;
+}
+.cloud-3 {
+  margin-top: 12em;
+  animation: shake 60s 3s infinite;
+}
+.cloud-4 {
+  margin-top: 18em;
+  margin-left: 15em;
+  animation: shake 60s 4s infinite;
 }
 
 .about-link {

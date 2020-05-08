@@ -5,13 +5,28 @@
   align-items: center;
   height: 100vh;
   min-width: fit-content;
-  width: 13vw;
-  background-color: black;
-  filter: drop-shadow(0 0 1em black);
+  width: 25vw;
+  background: none;
+  /* background: rgb(6, 32, 65);
+  background: radial-gradient(circle, rgba(6, 32, 65, 1) 0%, rgba(2, 11, 22, 1) 100%); */
+}
+
+.name {
+  margin-top: 1em;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.job {
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.name, .job {
+  text-align: center;
 }
 
 .sidebar-list {
-  margin-top: 3em;
+  margin-top: 1em;
+  animation: fadeInLeft 1.5s ease-in-out;
 }
 
 .sidebar-list-item {
@@ -21,12 +36,12 @@
 
 .sidebar-list-item:hover {
   cursor: pointer;
-  color: firebrick;
+  color: #EF4754;
 }
 
 .active {
   cursor: initial;
-  color: firebrick;
+  color: #EF4754;
 }
 
 .links {
@@ -34,6 +49,7 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: 1em;
+  animation: fadeInUp 2s ease-in-out;
 }
 
 .link {

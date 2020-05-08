@@ -46,6 +46,11 @@ function Sidebar(props) {
 
   return (
     <nav className="sidebar">
+      <div>
+        <h1 className="name">Fue Her</h1>
+        <h2 className="job">Software Engineer</h2>
+      </div>
+
       <div className="sidebar-list">
         {sidebarNavs.map((nav, i) => <SidebarPageNav key={i} nav={nav}/>)}
       </div>

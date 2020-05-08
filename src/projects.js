@@ -72,24 +72,15 @@ function ProjectItem(props) {
       <img className="proj-img" src={props.project.image} alt={"project " + props.project.title}/>
       <table>
         <tbody className="table">
-          <tr>
-            <th>LINKS:&ensp;</th>
-            <td>
-              <a href={props.project.livelink} target="_blank" rel="noopener noreferrer">LIVE</a>
-              &ensp; | &ensp;	
-              <a href={props.project.github}  target="_blank"  rel="noopener noreferrer">CODE</a>
-            </td>
-          </tr>
+          <div>
+            <a href={props.project.livelink} target="_blank" rel="noopener noreferrer">LIVE</a>
+            &ensp; | &ensp;	
+            <a href={props.project.github}  target="_blank"  rel="noopener noreferrer">CODE</a>
+          </div>
 
-          <tr>
-            <th>DESC:&ensp;</th>
-            <td>{props.project.description}</td>
-          </tr>
+          <div>{props.project.description}</div>
 
-          <tr>
-            <th>TECH:&ensp;</th>
-            <td>{props.project.technologies}</td>
-          </tr>
+          <div>{props.project.technologies}</div>
         </tbody>
       </table>
     </div>

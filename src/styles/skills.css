@@ -1,12 +1,11 @@
 .skills {
+  display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   width: 70%;
   margin: 5em;
   padding: 1em;
-  background-color: #233D33;
-  border-radius: 1em;
   overflow: scroll;
-  filter: drop-shadow(0 0 .5em black);
 }
 
 svg {

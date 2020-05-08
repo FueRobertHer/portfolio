@@ -1,13 +1,14 @@
 import React from 'react';
 import {HashRouter, Route} from "react-router-dom";
 import './styles/App.css';
+import './styles/animate.css';
 
 import Sidebar from './sidebar'
 import Home from './home';
 import Projects from './projects';
 import Skills from './skills';
-import About from './about'
-import Contact from './contact'
+import About from './about';
+import Contact from './contact';
 
 
 function App() {

@@ -6,7 +6,8 @@ html {
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  background-color: rgb(35, 45, 60);
+  background: rgb(6, 32, 65);
+  background: radial-gradient(circle, rgba(6, 32, 65, 1) 0%, rgba(2, 11, 22, 1) 100%);
   color: white;
 }
 
@@ -14,7 +15,7 @@ html {
   display: flex;
   justify-content: center;
   height: 100vh;
-  width: 87vw;
+  width: 75vw;
 }
 
 ::-webkit-scrollbar {

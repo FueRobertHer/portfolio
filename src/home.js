@@ -1,5 +1,7 @@
 import React from 'react';
-import './styles/home.css'
+import './styles/home.css';
+import Cloud1 from './assets/cloud1.jsx';
+import Cloud2 from './assets/cloud2.jsx';
 
 function Home(props) {
 
@@ -10,12 +12,18 @@ function Home(props) {
 
   return (
     <div className="home">  
-      <h1>Hi, I'm Fue</h1>
-      
       <article>
-        <p>
-          Welcome to my site. Feel free to look around and learn about me.
-        </p>
+        <h2 className="tagline">Building apps to open pathways to <strong className="strong">opportunities, empowerment, and positive impacts</strong></h2>
+
+        <div className="sky">
+          <svg className="sun" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="200" cy="200" r="150"/>
+          </svg>
+          <Cloud1 classes="cloud cloud-1" />
+          <Cloud1 classes="cloud cloud-2" />
+          <Cloud2 classes="cloud cloud-3" />
+          <Cloud2 classes="cloud cloud-4" />
+        </div>
 
         <p>
           I'm a software engineer that likes to build cool things and have fun. Before entering the software world, I worked in ecological restoration as a Technician in government and as an Inventory Specialist in a Native Plant Nursery. I love to tackle difficult and interesting problems to hopefully create a positive impact on the world.
