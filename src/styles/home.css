@@ -19,16 +19,27 @@
 }
 
 .sky {
-  flex: 1 1 auto;
   position: relative;
-  margin-top: 3em;
-  /* height: 75vh; */
-  border: white solid;
-  z-index: 1;
+  flex: 1 1 auto;
+  margin-top: 5em;
+}
+
+.sky-center {
+  position: absolute;
+  left: 25vw;
+  width: max-content;
+  height: max-content;
+}
+
+.rays {
+  width: 100vw;
+  height: 100vw;
+  margin-left: -25vw;
+  margin-top: -25vw;
+  fill: white;
 }
 
 .sun {
-  position: absolute;
   height: 50vw;
   width: 50vw;
   margin: auto;
@@ -37,45 +48,44 @@
 
 .cloud {
   position: absolute;
-  width: 35vw;
-  height: 25vh;
-  margin: auto;
+  width: 70%;
+  height: 70%;
   fill: whitesmoke;
 }
 
 .cloud-1 {
-  left: -20vw;
-  top: 10vh;
+  left: -50%;
   opacity: 60%;
-  animation: shake 120s 1s infinite;
-  border: chocolate solid;
+  animation: shake 110s 1s infinite;
 }
 .cloud-2 {
-  left: 10vw;
-  top: -3vh;
+  left: -10%;
+  top: -30%;
   opacity: 60%;
-  animation: shake 120s 2s infinite;
+  animation: shake 130s 1s infinite;
 }
 .cloud-3 {
-  left: -15vw;
-  bottom: 20vh;
+  left: -40%;
+  bottom: -10%;
   opacity: 95%;
   animation: shake 60s 3s infinite;
   fill: black;
 }
 .cloud-4 {
-  right: 15vw;
-  bottom: 0vh;
+  right: 0;
+  bottom: -20%;
   opacity: 95%;
   animation: shake 60s 4s infinite;
   fill: black;
+
 }
 .cloud-5 {
-  right: 0vw;
-  top: 25vh;
+  right: -25%;
+  top: -5%;
   opacity: 95%;
   animation: shake 60s 4s infinite;
   fill: black;
+
 }
 
 .about-link {
