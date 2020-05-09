@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  font-size: 12pt;
+  overflow: hidden;
 }
 
 .App {
@@ -11,11 +13,16 @@ html {
   color: white;
 }
 
+.side {
+  flex: 0 1 auto;
+}
+
 .content {
+  flex: 1 1 auto;
   display: flex;
   justify-content: center;
   height: 100vh;
-  width: 75vw;
+  /* width: 75vw; */
 }
 
 ::-webkit-scrollbar {

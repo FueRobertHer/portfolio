@@ -27,11 +27,13 @@
 .sidebar-list {
   margin-top: 1em;
   animation: fadeInLeft 1.5s ease-in-out;
+  z-index: 100;
 }
 
 .sidebar-list-item {
   display: block;
   margin: 1rem;
+
 }
 
 .sidebar-list-item:hover {

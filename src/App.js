@@ -15,7 +15,7 @@ function App() {
   return (
     <HashRouter>
       <div className="App">
-        <div>
+        <div className="side">
           <Route path="/" component={Sidebar} /> 
         </div>
         <div className="content">

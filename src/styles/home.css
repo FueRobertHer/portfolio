@@ -1,13 +1,14 @@
 .home {
   margin-top: 3em;
-  overflow: hidden;
+  overflow: visible;
   animation: fadeIn 1s ease-in-out;
 }
 
 .tagline {
+  flex: 0 1 auto;
   width: 80%;
   margin: auto;
-  font-size: 30px;
+  font-size: 1.5em;
   font-weight: normal;
 }
 
@@ -16,17 +17,19 @@
 }
 
 .sky {
+  flex: 1 1 auto;
   position: relative;
+  margin-top: 3em;
+  /* height: 75vh; */
+  border: white solid;
+  z-index: 1;
 }
 
 .sun {
-  display: block;
   position: absolute;
-  /* margin-right: 0; */
-  /* right: 0; */
-  /* top: vh; */
-  height: 80vw;
-  width: 80vw;
+  height: 50vw;
+  width: 50vw;
+  margin: auto;
   fill: whitesmoke;
 }
 
@@ -34,29 +37,43 @@
   position: absolute;
   width: 35vw;
   height: 25vh;
-  opacity: 50%;
+  margin: auto;
   fill: whitesmoke;
-  /* animation: shake 60s  infinite; */
 }
 
 .cloud-1 {
-  margin-left: 8em;
-  animation: shake 60s 1s infinite;
-  fill: red;
+  left: -20vw;
+  top: 10vh;
+  opacity: 60%;
+  animation: shake 120s 1s infinite;
+  border: chocolate solid;
 }
 .cloud-2 {
-  right: 0;
-  margin-top: 6em;
-  animation: shake 60s 2s infinite;
+  left: 10vw;
+  top: -3vh;
+  opacity: 60%;
+  animation: shake 120s 2s infinite;
 }
 .cloud-3 {
-  margin-top: 12em;
+  left: -15vw;
+  bottom: 20vh;
+  opacity: 95%;
   animation: shake 60s 3s infinite;
+  fill: black;
 }
 .cloud-4 {
-  margin-top: 18em;
-  margin-left: 15em;
+  right: 15vw;
+  bottom: 0vh;
+  opacity: 95%;
   animation: shake 60s 4s infinite;
+  fill: black;
+}
+.cloud-5 {
+  right: 0vw;
+  top: 25vh;
+  opacity: 95%;
+  animation: shake 60s 4s infinite;
+  fill: black;
 }
 
 .about-link {
