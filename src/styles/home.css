@@ -1,4 +1,6 @@
 .home {
+  display: flex;
+  flex-direction: column;
   margin-top: 3em;
   overflow: visible;
   animation: fadeIn 1s ease-in-out;
