@@ -23,6 +23,10 @@
   margin-top: 1.5em;
 }
 
+.project-links {
+  text-align: center;
+}
+
 a {
   color: steelblue;
 }

@@ -72,7 +72,7 @@ function ProjectItem(props) {
       <img className="proj-img" src={props.project.image} alt={"project " + props.project.title}/>
       <table>
         <tbody className="table">
-          <div>
+          <div className="project-links">
             <a href={props.project.livelink} target="_blank" rel="noopener noreferrer">LIVE</a>
             &ensp; | &ensp;	
             <a href={props.project.github}  target="_blank"  rel="noopener noreferrer">CODE</a>
