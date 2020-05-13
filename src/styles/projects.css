@@ -1,30 +1,34 @@
-.projects {
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+#projects {
   width: auto;
+  text-align: center;
   overflow: scroll;
-  animation: fadeIn 2s ease-in-out;
+  scroll-behavior: smooth;
 }
 
 .project-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   height: 100vh;
   width: 80%;
-  padding: 1em;
   margin: auto;
-  margin: 2em auto;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeInRight 2s ease-in-out;
 }
 
 .proj-img {
-  width: 100%;
+  width: 90%;
 }
 
 .table > div {
-  margin-top: 1.5em;
-}
-
-.project-links {
-  text-align: center;
+  margin-top: 1em;
 }
 
 a {
@@ -33,4 +37,24 @@ a {
 
 a:visited {
   color: firebrick;
+}
+
+.scroll-up, .scroll-down {
+  fill: white;
+  width: 2em;
+  height: 2em;
+  opacity: 20%;
+}
+
+.scroll-up:hover, .scroll-down:hover {
+  cursor: pointer;
+  opacity: 70%;
+  animation: flip-vertical-left 1.5s linear infinite;
+}
+
+.scroll-up {
+  margin-top: 2em;
+}
+.scroll-down {
+  margin-bottom: 2em;
 }

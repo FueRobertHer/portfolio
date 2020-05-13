@@ -57,26 +57,26 @@
 .cloud-1 {
   left: -50%;
   opacity: 60%;
-  animation: shake 90s 2s infinite, fadeInRight 2s;
+  animation: shake 90s 2s infinite, slideInRight 2s;
 }
 .cloud-2 {
   left: -10%;
   top: -30%;
   opacity: 60%;
-  animation: shake 85s 2.5s infinite, fadeInRight 2.5s;
+  animation: shake 85s 2.5s infinite, slideInRight 2.5s;
 }
 .cloud-3 {
   left: -40%;
   bottom: -10%;
   opacity: 95%;
-  animation: shake 60s 2.2s infinite, fadeInRight 2.2s;
+  animation: shake 60s 2.2s infinite, slideInRight 2.2s;
   fill: #041122;
 }
 .cloud-4 {
   right: 0;
   bottom: -20%;
   opacity: 95%;
-  animation: shake 60s 2.7s infinite, fadeInRight 2.7s;
+  animation: shake 60s 2.7s infinite, slideInRight 2.7s;
   fill: #041122;
 
 }
@@ -84,7 +84,7 @@
   right: -25%;
   top: -5%;
   opacity: 95%;
-  animation: shake 60s 3s infinite, fadeInRight 3s;
+  animation: shake 60s 3s infinite, slideInRight 3s;
   fill: #041122;
 
 }

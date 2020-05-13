@@ -5,6 +5,7 @@ import './styles/about.css'
 
 function About() {
   const about = useRef(document.getElementById("about"))
+  console.log(about)
   const overviewRef = useRef(null)
   const workRef = useRef(null)
   const personalRef = useRef(null)
