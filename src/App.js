@@ -9,12 +9,16 @@ import Projects from './projects';
 import Skills from './skills';
 import About from './about';
 import Contact from './contact';
+import Rays from './assets/rays';
 
 
 function App() {
   return (
     <HashRouter>
       <div className="App">
+        {/* <div className="sky-center">
+          <Rays classes="rays" />
+        </div> */}
         <div className="side">
           <Route path="/" component={Sidebar} /> 
         </div>

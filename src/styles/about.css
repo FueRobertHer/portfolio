@@ -7,8 +7,7 @@
 .about-nav {
   position: fixed;
   width: 75vw;
-  background-color: rgb(37, 70, 97);
-  filter: drop-shadow(0 0 1em black);
+
   z-index: 1;
 }
 
@@ -22,11 +21,12 @@
   cursor: pointer;
   list-style: none;
   margin: 1em;
-  font-size: .7em;
+  font-size: 1em;
 }
 
 .about-nav-list>li:hover {
-  color: #33233D;
+  color: steelblue;
+
 }
 
 .about-body {
@@ -34,4 +34,12 @@
   margin: auto;
   margin-top: 5em;
 
+}
+
+.about-header {
+  font-size: 3em;
+}
+
+.about-section {
+  height: 95vh;
 }

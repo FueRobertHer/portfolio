@@ -20,23 +20,35 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  animation: fadeInRight 2s ease-in-out;
+  /* animation: fadeInRight 2s ease-in-out; */
 }
 
-.proj-img {
+.project-title {
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.project-img {
   width: 90%;
+  animation: fadeInRight 1s ease-in-out;
 }
 
 .table > div {
   margin-top: 1em;
 }
 
-a {
-  color: steelblue;
+.project-links {
+  animation: fadeInRight 1.3s ease-in-out;
 }
 
-a:visited {
-  color: firebrick;
+.project-desc {
+  animation: fadeInRight 2s ease-in-out;
+}
+
+.tech-list {
+  display: block;
+  font-size: .8em;
+  margin-top: 1em;
+  animation: fadeInRight 1.7s ease-in-out;
 }
 
 .scroll-up, .scroll-down {
@@ -58,3 +70,4 @@ a:visited {
 .scroll-down {
   margin-bottom: 2em;
 }
+

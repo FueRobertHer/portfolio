@@ -9,7 +9,7 @@ function About() {
   const overviewRef = useRef(null)
   const workRef = useRef(null)
   const personalRef = useRef(null)
-  const hobbiesRef = useRef(null)
+  const otherRef = useRef(null)
 
   const scrollToRef = (ref) => about.current.scrollTo(0, ref.current.offsetTop - 90)
 
@@ -21,21 +21,21 @@ function About() {
           <li onClick={() => scrollToRef(overviewRef)}>OVERVIEW</li>
           <li onClick={() => scrollToRef(workRef)}>WORK HISTORY</li>
           <li onClick={() => scrollToRef(personalRef)}>PERSONAL HISTORY</li>
-          <li onClick={() => scrollToRef(hobbiesRef)}>HOBBIES</li>
+          <li onClick={() => scrollToRef(otherRef)}>OTHER</li>
         </ul>
       </div>
       
       <section className="about-body">
-        <section>
-          <h2 ref={overviewRef}>OVERVIEW</h2>
+        <section className="about-section">
+          <h2 className="about-header" ref={overviewRef}>Overview</h2>
           <article>
             Born and raised in the Central Valley of California, I graduated from UC Merced in 2013 with a BS in Biology with an emphasis in ecology and evolution. After college I worked in ecological restoration, doing native plants revegetation and wildlife reintroduction and monitoring in San Francisco. I breifly moved to Oregon and held a position as the Inventory Specialist for a native plant nursery where I developed systems and protocol to improve sales performance and customer relation. I've since relocationed back to San Francisco and am a software engineer, using my skills to build things and do good. 
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            {/* <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> */}
           </article>
         </section>
 
-        <section>
-          <h2 ref={workRef}>WORK HISTORY</h2>
+        <section className="about-section">
+          <h2 className="about-header" ref={workRef}>Work History</h2>
           <article>
             I most recently held the position as the Inventory Specialist at Scholl's Valley Native Nursery, LLC. located in Forest Groove, Oregon. While there, I managed an inventory of over one million plants and develop a warehouse mangament system to improve warehouse operations. While there I personally oversaw the sales and delivery of over 90% of the products and saw a 94% decrease in mishapes when compared to previous years.
             <br/><br/>
@@ -45,17 +45,17 @@ function About() {
           </article>
         </section>
 
-        <section>
-          <h2 ref={personalRef}>PERSONAL HISTORY</h2>
+        <section className="about-section">
+          <h2 className="about-header" ref={personalRef}>Personal History</h2>
           <article>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            {/* <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> */}
           </article>
         </section>
 
-        <section>
-          <h2 ref={hobbiesRef}>HOBBIES</h2>
+        <section className="about-section">
+          <h2 className="about-header" ref={otherRef}>Other</h2>
           <article>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            {/* <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> */}
           </article>
         </section>
       </section>

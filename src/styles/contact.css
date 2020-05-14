@@ -11,34 +11,37 @@
 }
 
 .contact-section {
+  display: flex;
+  justify-content: center;
   margin: 1em;
 }
 
-.social-links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-thead {
-  /* width: 100%; */
-}
-
-.header {
-  /* width: 100%; */
+.contact-header {
+  font-size: 3em;
   text-align: center;
   border-bottom: double white;
+  
 }
 
-.table-head, .table-cell {
-  /* height: 2.5em; */
-  /* width: 5em; */
-  /* margin: auto; */
+.resume {
+  color: white;
+  background: firebrick;
+  text-decoration: none;
+  padding: .5em 1em;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.resume:hover {
+  background: steelblue;
+}
+
+.resume:visited {
+  color: white;
 }
 
 .contact-link {
-  /* margin: .5em;
+  margin: .5em;
   height: 2em;
-  width: 2em; */
-  /* fill: white; */
+  width: 2em; 
 }

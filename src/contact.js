@@ -4,20 +4,25 @@ import './styles/contact.css'
 function Contact() {
   return (
     <div className="contact">  
-      <h2 className="header">CONTACT ME</h2>
+      <h2 className="contact-header">Get In Touch</h2>
       Feel free to email me or reach out at any of the links below
       <div className="contact-info">
         <section className="contact-section">
-          email
+           <a href="mailto: fueroberther@gmail.com">fueroberther@gmail.com</a>
         </section>
 
         <section className="contact-section">
-          phone
+          <a className="resume" 
+            href="https://docs.google.com/document/d/1XwWLE4AaUlicyjAhImS_wa_t3EyA1RUeT7qANdU8zS0/edit?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer">
+              Resume
+          </a>
         </section>
 
-        <section className="contact-section social-links">
-          social
-          <div className="links">
+        <section className="contact-section">
+          {/* socail */}
+          <div className="links contact-links">
             <a href="https://www.linkedin.com/in/fue-her/" target="_blank" rel="noopener noreferrer">
               <svg className="link contact-link" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <title>LinkedIn icon</title>
