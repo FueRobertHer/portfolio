@@ -65,7 +65,7 @@ function About() {
           </div>
           <article className="about-text">
             <br/><br/>
-            Born and raised in California's central valley, I'm the youngest of 10. My family immigrated to United States in the late 80's speaking little to no English. I've struggled fitting in growing up but I always had my family and great friends to support me along the way.
+            Born and raised in California's central valley, I'm the youngest of 10. My family immigrated to United States in the late 80's speaking little to no English. I've struggled fitting in growing up but I always had my family and great friends to support me along the way. Now, I want to support others with the tools I build.
             <br/><br/>
             I graduated from the University of California, Merced with a BS in Biology. Learning about life is still facinating to me and I still make time to explore and learn when I can.
           </article>
@@ -74,11 +74,11 @@ function About() {
         <section className="about-section">
           <h2 className="about-header" ref={otherRef}>Other</h2>
           <article className="about-text">
-            When I'm not coding I love to spend time outdoors. You might find me hiking, bird watching or taking pictures of interesting plants, animals, or fungi. 
+            When I 'm not coding I love to spend time outdoors. You might find me hiking, bird watching or taking pictures of interesting plants, animals, or fungi. iNaturalist.org inspired me to bridge technology and nature, so I made a clone of it. <a href="#/projects">Check out Nspect and my other projects</a>.
             <br/><br/>
             But, more often, you'll find me reading or playing video games with my friends. Video games were what got me interested in technology. I'm excited to see what new things are coming with virtual and augmented reality.
             <br/><br/>
-            I'm always looking to learn and grow and figure things out for myself. I like 
+            I'm curious about all sorts of sorts of things and am driven to learn about anything and everything. If you have something you want to share with me, <a href="#/contact">send me a message</a>!
           </article>
         </section>
       </section>
