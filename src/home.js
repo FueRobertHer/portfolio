@@ -7,22 +7,9 @@ import Cloud2 from './assets/cloud2';
 
 function Home(props) {
 
-  function goToAbout(e) {
-    e.preventDefault();
-    props.history.push('/about');
-  };
-
   return (
     <div className="home">  
         <h2 className="tagline">Building apps to open pathways to <strong className="strong">opportunities, empowerment, and positive impacts</strong></h2>
-
-      {/* <p>
-        I'm a software engineer that likes to build cool things and have fun. Before entering the software world, I worked in ecological restoration as a Technician in government and as an Inventory Specialist in a Native Plant Nursery. I love to tackle difficult and interesting problems to hopefully create a positive impact on the world.
-      </p>
-
-      <p>
-        Read my story <a className="about-link" href="#" onClick={goToAbout}>here</a>.
-      </p> */}
 
       <div className="sky">
         <div className="sky-center">

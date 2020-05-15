@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  font-size: 12pt;
+  font-size: 11pt;
   overflow: hidden;
 }
 
@@ -8,8 +8,8 @@ html {
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  background: rgb(6, 32, 65);
-  background: radial-gradient(circle, rgba(6, 32, 65, 1) 0%, rgba(2, 11, 22, 1) 100%);
+  background: rgb(4, 5, 52);
+  background: linear-gradient(90deg, rgba(4, 5, 52, 1) 0%, rgba(22, 22, 72, 1) 100%);
   color: white;
   overflow: hidden;
 }

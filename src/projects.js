@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import './styles/projects.css'
 import npsectImg from './assets/nspect.png'
 import jumpyKartImg from './assets/jumpykart.png'
@@ -12,7 +12,7 @@ import { ArrowUp, ArrowDown } from './assets/arrows'
 const projectList = [{
     title: "Nspect",
     image: npsectImg,
-    description: "Nature enthusiasts social networking and knowledge crowdsourcing app. Single page upgrade of iNaturalist.org",
+    description: "Social networking and knowledge crowdsourcing app for nature enthusiasts. Single page upgrade of iNaturalist.org",
     technologies: "Ruby, Rails5, PostgreSQL, JavaScript, React, Redux, AWS S3, Google Maps API, HTML5, CSS3",
     livelink: "https://n-spect.herokuapp.com/#/",
     github: "https://github.com/FueRobertHer/Nspect"
@@ -84,12 +84,12 @@ function Projects() {
       throttle = false;
     };
 
-    if (e.target.scrollTop > scrollPos) {
+    if (e.target.scrollTop > scrollPos + 50) {
       // scroll down
       throttle = true
       e.target.scrollTo(0, next)
       setTimeout(() => (setScrollandThrottle(next)), 800);
-    } else {
+    } else if (e.target.scrollTop < scrollPos - 50) {
       //scroll up
       throttle = true
       e.target.scrollTo(0, prev)
@@ -106,7 +106,6 @@ function Projects() {
 
 function ProjectItem(props) {
   const selfRef = useRef();
-  console.log("current",props.projects)
 
   function scrollToRef(pos) {
     if (pos === "up") {

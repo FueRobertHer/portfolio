@@ -32,14 +32,39 @@
 .about-body {
   width: 80%;
   margin: auto;
-  margin-top: 5em;
-
 }
 
 .about-header {
-  font-size: 3em;
+  font-size: 2.5em;
+  margin-top: 1.8em;
+}
+
+.about-text {
+  margin-bottom: 2em;
 }
 
 .about-section {
-  height: 95vh;
+  min-height: 87vh;
+  margin-bottom: 3em;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+}
+
+.img {
+  width: 70%;
+}
+
+.headshot {
+  min-width: 200px;
+  width: 25%;
+  border-radius: 50%;
+}
+
+caption {
+  font-size: .7em;
 }

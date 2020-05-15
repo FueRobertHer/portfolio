@@ -24,6 +24,7 @@
 }
 
 .project-title {
+  font-size: 2em;
   animation: fadeInDown 1s ease-in-out;
 }
 
