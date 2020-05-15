@@ -56,12 +56,12 @@
   fill: white;
   width: 2em;
   height: 2em;
-  opacity: 20%;
+  opacity: .2;
 }
 
 .scroll-up:hover, .scroll-down:hover {
   cursor: pointer;
-  opacity: 70%;
+  opacity: .7;
   animation: flip-vertical-left 1.5s linear infinite;
 }
 
