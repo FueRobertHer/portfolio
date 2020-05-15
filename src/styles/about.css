@@ -17,7 +17,6 @@
 .about-nav-list {
   display: flex;
   justify-content: space-around;
-  overflow: scroll;
   padding: 0;
 }
 
