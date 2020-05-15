@@ -1,4 +1,4 @@
-#projects {
+#projects-page {
   width: auto;
   text-align: center;
   overflow: scroll;
@@ -72,3 +72,7 @@
   margin-bottom: 2em;
 }
 
+::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}

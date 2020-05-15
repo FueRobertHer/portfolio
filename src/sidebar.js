@@ -79,12 +79,12 @@ function Sidebar(props) {
   )
 };
 
-function SidebarPageNav(props) {
+function SidebarPageNav({nav}) {
   let activeClass = "sidebar-list-item"
-  if (props.nav.activePage === props.nav.id) activeClass += " active"
+  if (nav.activePage === nav.id) activeClass += " active"
 
   return (
-    <b id={props.nav.id} className={activeClass} onClick={props.nav.goTo}>{props.nav.id.toUpperCase()}</b>
+    <b id={nav.id} className={activeClass} onClick={nav.goTo}>{nav.id.toUpperCase()}</b>
   )
 }
 

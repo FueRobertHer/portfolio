@@ -98,7 +98,7 @@ function Projects() {
   }
 
   return (
-    <div id="projects" ref={projects} onScroll={fixedScroll}>  
+    <div id="projects-page" ref={projects} onScroll={fixedScroll}>  
       {projectList.map((project, i) => <ProjectItem projects={projects} key={i} idx={i} project={project}/>)}
     </div>
   )
