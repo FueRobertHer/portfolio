@@ -30,10 +30,10 @@ function About() {
       <section className="about-body">
         <section className="about-section">
           <h2 className="about-header" ref={overviewRef}>Overview</h2>
+          <div className="img-container">
+            <img className="img headshot" src={headshot} alt="Fue's head shot" />
+          </div>
           <article className="about-text">
-            <div className="img-container">
-              <img className="img headshot" src={headshot} alt="Fue's head shot" />
-            </div>
             <br/><br/>
             Hi I'm Fue, a software engineer interested in building cool things that will enrich the lives of others.
             <br/><br/>
@@ -45,11 +45,11 @@ function About() {
 
         <section className="about-section">
           <h2 className="about-header" ref={workRef}>Work History</h2>
+          <div className="img-container">
+            <img className="img" src={plantingDay} alt="Fue planting with volunteers" />
+            <caption>Planting in Presidio SF taken by Parks Conservancy</caption>
+          </div>
           <article className="about-text">
-            <div className="img-container">
-              <img className="img" src={plantingDay} alt="Fue planting with volunteers" />
-              <caption>Planting in Presidio SF taken by Parks Conservancy</caption>
-            </div>
             <br/><br/>
             Before I became a software engineer I had a career in ecological resotration. I worked clostly with local experts and volunteers managing habitats home to rare and endemic species.
             <br/><br/>
@@ -59,11 +59,11 @@ function About() {
 
         <section className="about-section">
           <h2 className="about-header" ref={personalRef}>Personal History</h2>
+          <div className="img-container">
+            <img className="img" src={familyPhoto} alt="Fue's family when he was a child" />
+            <caption>Me on the bottom-left in front of my dad. Two of my older sisters are missing as they've married and started their own families.</caption>
+          </div>
           <article className="about-text">
-            <div className="img-container">
-              <img className="img" src={familyPhoto} alt="Fue's family when he was a child" />
-              <caption>Me on the bottom-left in front of my dad. Two of my older sisters are missing as they've married and started their own families.</caption>
-            </div>
             <br/><br/>
             Born and raised in California's central valley, I'm the youngest of 10. My family immigrated to United States in the late 80's speaking little to no English. I've struggled fitting in growing up but I always had my family and great friends to support me along the way.
             <br/><br/>

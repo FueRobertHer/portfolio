@@ -43,6 +43,15 @@ html {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 10pt;
+  }
+  li {
+    font-size: 5pt;
+  }
+}
+
 /* .App {
   text-align: center;
 }

@@ -9,20 +9,23 @@
   width: 75vw;
   background: rgb(4, 5, 52);
   background: linear-gradient(90deg, rgba(8, 9, 57, 1) 0%, rgba(22, 22, 72, 1) 100%);
+  margin-left: -1em;
   z-index: 1;
+  animation: slideInDown 2s ease-in-out;
 }
 
 .about-nav-list {
   display: flex;
   justify-content: space-around;
+  overflow: scroll;
   padding: 0;
 }
 
 .about-nav-list > li {
   cursor: pointer;
   list-style: none;
-  margin: 1em;
-  font-size: 1em;
+  text-align: center;
+  margin: .5em;
 }
 
 .about-nav-list>li:hover {
@@ -38,10 +41,12 @@
 .about-header {
   font-size: 2.5em;
   margin-top: 2em;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .about-text {
   margin-bottom: 2em;
+  animation: slideInRight 1s ease-in-out;
 }
 
 .about-section {
