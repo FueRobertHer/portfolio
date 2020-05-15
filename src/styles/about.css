@@ -7,7 +7,8 @@
 .about-nav {
   position: fixed;
   width: 75vw;
-
+  background: rgb(4, 5, 52);
+  background: linear-gradient(90deg, rgba(8, 9, 57, 1) 0%, rgba(22, 22, 72, 1) 100%);
   z-index: 1;
 }
 
@@ -36,7 +37,7 @@
 
 .about-header {
   font-size: 2.5em;
-  margin-top: 1.8em;
+  margin-top: 2em;
 }
 
 .about-text {
@@ -44,7 +45,7 @@
 }
 
 .about-section {
-  min-height: 87vh;
+  min-height: 80vh;
   margin-bottom: 3em;
 }
 
