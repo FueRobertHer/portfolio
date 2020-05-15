@@ -44,8 +44,10 @@
 }
 
 .about-text {
+  max-width: 70%;
+  margin: auto;
   margin-bottom: 2em;
-  animation: slideInRight 1s ease-in-out;
+  animation: fadeInRight 1s ease-in-out;
 }
 
 .about-section {
@@ -72,4 +74,5 @@
 
 caption {
   font-size: .7em;
+  width: 70%;
 }

@@ -51,7 +51,7 @@ function About() {
           </div>
           <article className="about-text">
             <br/><br/>
-            Before I became a software engineer I had a career in ecological resotration. I worked clostly with local experts and volunteers managing habitats home to rare and endemic species.
+            Before I became a software engineer I had a career in ecological restoration. I worked closely with local experts and volunteers managing habitats that are home to rare and endemic species.
             <br/><br/>
             My experience in that career really influenced how I see the world and encourages me to work on problems not just effect humans but the world as a whole.
           </article>
@@ -67,16 +67,18 @@ function About() {
             <br/><br/>
             Born and raised in California's central valley, I'm the youngest of 10. My family immigrated to United States in the late 80's speaking little to no English. I've struggled fitting in growing up but I always had my family and great friends to support me along the way.
             <br/><br/>
-            I graduated from the University of California, Merced with a BS in Biology. Learning about life is still facinating to me but I prefer it more as a hobby than a career.
+            I graduated from the University of California, Merced with a BS in Biology. Learning about life is still facinating to me and I still make time to explore and learn when I can.
           </article>
         </section>
 
         <section className="about-section">
           <h2 className="about-header" ref={otherRef}>Other</h2>
           <article className="about-text">
-            When I'm not coding I love to spend time outdoors. You might find me hiking, bird watching or taking pictures of interesting plants, animals, or fungi.
+            When I'm not coding I love to spend time outdoors. You might find me hiking, bird watching or taking pictures of interesting plants, animals, or fungi. 
             <br/><br/>
-            But, more often, you'll find me reading or playing video games with my friends.
+            But, more often, you'll find me reading or playing video games with my friends. Video games were what got me interested in technology. I'm excited to see what new things are coming with virtual and augmented reality.
+            <br/><br/>
+            I'm always looking to learn and grow and figure things out for myself. I like 
           </article>
         </section>
       </section>
