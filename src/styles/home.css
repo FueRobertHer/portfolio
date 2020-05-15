@@ -15,6 +15,7 @@
 }
 
 .strong {
+  font-size: inherit;
   color: #0069E2;
 }
 
