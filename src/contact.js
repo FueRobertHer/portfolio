@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/contact.css'
+import resume from './assets/Her_Fue_Resume.pdf';
 
 function Contact() {
   return (
@@ -13,7 +14,7 @@ function Contact() {
 
         <section className="contact-section">
           <a className="resume" 
-            href="https://docs.google.com/document/d/1XwWLE4AaUlicyjAhImS_wa_t3EyA1RUeT7qANdU8zS0/edit?usp=sharing" 
+            href={resume} 
             target="_blank" 
             rel="noopener noreferrer">
               Resume
